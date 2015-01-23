@@ -1,0 +1,45 @@
+{  
+   "target-words":{  
+      "personal":{  
+         "name":"Personal",
+         "level":"0",
+         "range":"no range",
+         "description":"A wordspell with this target word only affects the caster. Effect words that are restricted to this word can be combined with other effect words, but the caster is the only target, regardless of other target possibilities."
+      },
+      "selected":{  
+         "name":"Selected",
+         "level":"0",
+         "range":"close (25 ft. + 5 ft./2 levels)",
+         "description":"A wordspell with this target word affects a single target within range. If the wordspell deals energy damage, this word creates a ray that requires a ranged touch attack to hit, or it can be used as a melee touch attack with no range (decided by the wordcaster when the wordspell is cast). If it is used as a melee touch attack and the attack misses, the wordcaster can hold the charge and try again with subsequent attacks.",
+         "boost":": Instead of one target, the wordspell affects up to one target per caster level, no two of which can be more than 30 feet apart. The range increases to medium (100 ft. + 10 ft./level). If used with an effect word that deals energy damage, the wordcaster must make multiple ray attacks for each target (they cannot be made as melee touch attacks). This boosted target word increases the level of all the effect words in the spell by 3 levels. "
+      },
+      "barrier":{  
+         "name":"Barrier",
+         "level":"3",
+         "range":"close (25 ft. + 5 ft./2 levels)",
+         "description":"A wordspell with this target word creates a visible barrier that is 10 feet long per caster level and 10 feet high. Creatures touching or passing through the barrier are subject to the spell's effect. The barrier does not hinder creatures passing through it unless noted in the spell effect. Creatures occupying the space of the barrier when it forms are subject to the spell's effect. The wall is 1 foot wide and must be anchored on a solid surface. The wall must be straight when formed. ",
+         "boost":": The wall is 20 feet long per caster level and up to 20 feet high. The wall can take on any shape desired by the caster, but it must remain a vertical surface."
+      },
+      "burst":{  
+         "name":"Burst",
+         "level":"1",
+         "range":"close (25 ft. + 5 ft./2 levels)",
+         "description":"A wordspell with this target word affects everything it catches in a 10-foot-radius burst. Some effect words that use the burst target word are instead emanations, taking up the same area as the burst. These effect words typically have a longer duration and cannot be moved once created. They are noted by the word “emanation” in parentheses after the burst target restriction.",
+         "boost":": The spell affects everything in a 40-foot-radius burst. Its range increases to long (400 ft. + 40 ft./level). Boosting this target word increases its level by 4."
+      },
+      "cone":{  
+         "name":"Cone",
+         "level":"0",
+         "range":"10 ft.",
+         "description":"A wordspell with this target word affects everything in a cone-shaped burst.",
+         "boost":": The range increases to 40 feet. Boosting this target word increases its level by 4."
+      },
+      "line":{  
+         "name":"Line",
+         "level":"1",
+         "range":"20 ft.",
+         "description":"A wordspells with this target word affects everything in a 20-foot line.",
+         "boost":": The range increases to 120 feet. Boosting this target word increases its level by 2."
+      }
+   }
+}
